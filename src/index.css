@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark*));
+
+body {
+font-family: 'Inter', sans-serif;
+}
+.dark {
+color-scheme: dark;
+}
+html{
+scroll-behavior: smooth;
+}
+.star-shape {
+  clip-path: polygon(
+    50% 0%,
+    61% 38%,
+    98% 38%,
+    68% 59%,
+    79% 100%,
+    50% 75%,
+    21% 100%,
+    32% 59%,
+    2% 38%,
+    39% 38%
+  );
+
+}
